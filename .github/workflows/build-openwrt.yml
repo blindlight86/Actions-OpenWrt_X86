@@ -121,8 +121,8 @@ jobs:
     - name: Unzip folder
       run: |
         cd build_folder
-        tar –xvf build_folder.tar -C ../
-      
+        tar -xvf build_folder.tar -C ../
+
     - name: Initialization environment
       env:
         DEBIAN_FRONTEND: noninteractive
