@@ -36,7 +36,7 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
-  build:
+  pre:
     runs-on: ubuntu-18.04
 
     steps:
@@ -90,7 +90,30 @@ jobs:
       env:
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+    
+    - name: Wrap folder
+      run: tar -cvf build_folder.tar openwrt
+    
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v2.2.0
+      with:
+        name: build_folder
+        path: build_folder.tar
 
+  download:
+    runs-on: ubuntu-18.04
+    
+    needs: pre
+    
+    steps:
+    - uses: actions/checkout@v2
+      
+    - name: Get folder
+      uses: actions/download-artifact@v2.0.5
+    
+    - name: Unzip folder
+      run: tar –xvf build_folder.tar
+    
     - name: Download package
       id: package
       run: |
