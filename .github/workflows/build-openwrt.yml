@@ -92,7 +92,7 @@ jobs:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     
     - name: Wrap folder
-      run: tar -pczfv build_folder.tar openwrt/.
+      run: tar -czfv build_folder.tar openwrt/.
     
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.2.0
