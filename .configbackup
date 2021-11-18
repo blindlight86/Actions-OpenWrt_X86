@@ -4447,18 +4447,18 @@ CONFIG_PACKAGE_luci-mod-admin-full=y
 # 3. Applications
 #
 CONFIG_PACKAGE_luci-app-accesscontrol=y
-CONFIG_PACKAGE_luci-app-adblock=y
+#CONFIG_PACKAGE_luci-app-adblock=y
 CONFIG_PACKAGE_luci-app-adbyby-plus=y
 # CONFIG_PACKAGE_luci-app-advanced-reboot is not set
 # CONFIG_PACKAGE_luci-app-ahcp is not set
-CONFIG_PACKAGE_luci-app-airplay2=y
-CONFIG_PACKAGE_luci-app-amule=y
-CONFIG_PACKAGE_luci-app-aria2=y
+#CONFIG_PACKAGE_luci-app-airplay2=y
+#CONFIG_PACKAGE_luci-app-amule=y
+#CONFIG_PACKAGE_luci-app-aria2=y
 CONFIG_PACKAGE_luci-app-arpbind=y
 CONFIG_PACKAGE_luci-app-asterisk=y
 # CONFIG_PACKAGE_luci-app-attendedsysupgrade is not set
 CONFIG_PACKAGE_luci-app-autoreboot=y
-CONFIG_PACKAGE_luci-app-baidupcs-web=y
+#CONFIG_PACKAGE_luci-app-baidupcs-web=y
 # CONFIG_PACKAGE_luci-app-bcp38 is not set
 # CONFIG_PACKAGE_luci-app-bird1-ipv4 is not set
 # CONFIG_PACKAGE_luci-app-bird1-ipv6 is not set
@@ -4468,7 +4468,7 @@ CONFIG_PACKAGE_luci-app-cifsd=y
 # CONFIG_PACKAGE_luci-app-cjdns is not set
 # CONFIG_PACKAGE_luci-app-clamav is not set
 CONFIG_PACKAGE_luci-app-commands=y
-CONFIG_PACKAGE_luci-app-cshark=y
+#CONFIG_PACKAGE_luci-app-cshark=y
 CONFIG_PACKAGE_luci-app-ddns=y
 CONFIG_PACKAGE_luci-app-diag-core=y
 # CONFIG_PACKAGE_luci-app-diskman is not set
@@ -4477,7 +4477,7 @@ CONFIG_PACKAGE_luci-app-diag-core=y
 # CONFIG_PACKAGE_luci-app-diskman_INCLUDE_mdadm is not set
 CONFIG_PACKAGE_luci-app-dnscrypt-proxy=y
 CONFIG_PACKAGE_luci-app-dnsforwarder=y
-CONFIG_PACKAGE_luci-app-docker=y
+#CONFIG_PACKAGE_luci-app-docker=y
 CONFIG_PACKAGE_luci-app-dump1090=y
 # CONFIG_PACKAGE_luci-app-dynapoint is not set
 # CONFIG_PACKAGE_luci-app-e2guardian is not set
@@ -4488,8 +4488,8 @@ CONFIG_PACKAGE_luci-app-firewall=y
 # CONFIG_PACKAGE_luci-app-freifunk-diagnostics is not set
 # CONFIG_PACKAGE_luci-app-freifunk-policyrouting is not set
 # CONFIG_PACKAGE_luci-app-freifunk-widgets is not set
-CONFIG_PACKAGE_luci-app-frpc=y
-CONFIG_PACKAGE_luci-app-frps=y
+#CONFIG_PACKAGE_luci-app-frpc=y
+#CONFIG_PACKAGE_luci-app-frps=y
 # CONFIG_PACKAGE_luci-app-fwknopd is not set
 # CONFIG_PACKAGE_luci-app-guest-wifi is not set
 # CONFIG_PACKAGE_luci-app-haproxy-tcp is not set
@@ -4498,11 +4498,11 @@ CONFIG_PACKAGE_luci-app-frps=y
 CONFIG_PACKAGE_luci-app-https-dns-proxy=y
 CONFIG_PACKAGE_luci-app-ipsec-vpnd=y
 # CONFIG_PACKAGE_luci-app-kodexplorer is not set
-CONFIG_PACKAGE_luci-app-lxc=y
+#CONFIG_PACKAGE_luci-app-lxc=y
 # CONFIG_PACKAGE_luci-app-meshwizard is not set
-CONFIG_PACKAGE_luci-app-minidlna=y
-CONFIG_PACKAGE_luci-app-mjpg-streamer=y
-CONFIG_PACKAGE_luci-app-music-remote-center=y
+#CONFIG_PACKAGE_luci-app-minidlna=y
+#CONFIG_PACKAGE_luci-app-mjpg-streamer=y
+#CONFIG_PACKAGE_luci-app-music-remote-center=y
 CONFIG_PACKAGE_luci-app-mwan3=y
 CONFIG_PACKAGE_luci-app-mwan3helper=y
 # CONFIG_PACKAGE_luci-app-n2n_v2 is not set
@@ -4517,17 +4517,17 @@ CONFIG_PACKAGE_luci-app-ocserv=y
 CONFIG_PACKAGE_luci-app-olsr=y
 CONFIG_PACKAGE_luci-app-olsr-services=y
 CONFIG_PACKAGE_luci-app-olsr-viz=y
-CONFIG_PACKAGE_luci-app-openvpn=y
-CONFIG_PACKAGE_luci-app-openvpn-server=y
+#CONFIG_PACKAGE_luci-app-openvpn=y
+#CONFIG_PACKAGE_luci-app-openvpn-server=y
 CONFIG_PACKAGE_luci-app-p910nd=y
 # CONFIG_PACKAGE_luci-app-pagekitec is not set
 # CONFIG_PACKAGE_luci-app-polipo is not set
 CONFIG_PACKAGE_luci-app-pppoe-relay=y
 # CONFIG_PACKAGE_luci-app-privoxy is not set
 # CONFIG_PACKAGE_luci-app-ps3netsrv is not set
-CONFIG_PACKAGE_luci-app-qbittorrent=y
-CONFIG_PACKAGE_luci-app-qos=y
-CONFIG_PACKAGE_luci-app-radicale=y
+#CONFIG_PACKAGE_luci-app-qbittorrent=y
+#CONFIG_PACKAGE_luci-app-qos=y
+#CONFIG_PACKAGE_luci-app-radicale=y
 CONFIG_PACKAGE_luci-app-ramfree=y
 CONFIG_PACKAGE_luci-app-rclone=y
 CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui=y
@@ -4537,11 +4537,11 @@ CONFIG_PACKAGE_luci-app-rclone_INCLUDE_fuse-utils=y
 CONFIG_PACKAGE_luci-app-samba=y
 CONFIG_PACKAGE_luci-app-samba4=y
 CONFIG_PACKAGE_luci-app-sfe=y
-CONFIG_PACKAGE_luci-app-shadowsocks-libev=y
-CONFIG_PACKAGE_luci-app-shairplay=y
+#CONFIG_PACKAGE_luci-app-shadowsocks-libev=y
+#CONFIG_PACKAGE_luci-app-shairplay=y
 # CONFIG_PACKAGE_luci-app-siitwizard is not set
-CONFIG_PACKAGE_luci-app-simple-adblock=y
-CONFIG_PACKAGE_luci-app-softethervpn=y
+#CONFIG_PACKAGE_luci-app-simple-adblock=y
+#CONFIG_PACKAGE_luci-app-softethervpn=y
 # CONFIG_PACKAGE_luci-app-splash is not set
 # CONFIG_PACKAGE_luci-app-sqm is not set
 # CONFIG_PACKAGE_luci-app-squid is not set
@@ -4562,9 +4562,9 @@ CONFIG_PACKAGE_luci-app-transmission=y
 # CONFIG_PACKAGE_luci-app-ttyd is not set
 # CONFIG_PACKAGE_luci-app-udpxy is not set
 CONFIG_PACKAGE_luci-app-uhttpd=y
-CONFIG_PACKAGE_luci-app-unblockmusic=y
-CONFIG_UnblockNeteaseMusic_Go=y
-CONFIG_UnblockNeteaseMusic_NodeJS=y
+#CONFIG_PACKAGE_luci-app-unblockmusic=y
+#CONFIG_UnblockNeteaseMusic_Go=y
+#CONFIG_UnblockNeteaseMusic_NodeJS=y
 # CONFIG_PACKAGE_luci-app-unbound is not set
 CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-app-usb-printer=y
@@ -4577,7 +4577,7 @@ CONFIG_PACKAGE_luci-app-vsftpd=y
 # CONFIG_PACKAGE_luci-app-watchcat is not set
 CONFIG_PACKAGE_luci-app-webadmin=y
 # CONFIG_PACKAGE_luci-app-wifischedule is not set
-CONFIG_PACKAGE_luci-app-wireguard=y
+#CONFIG_PACKAGE_luci-app-wireguard=y
 CONFIG_PACKAGE_luci-app-wol=y
 # CONFIG_PACKAGE_luci-app-wrtbwmon is not set
 CONFIG_PACKAGE_luci-app-xlnetacc=y
