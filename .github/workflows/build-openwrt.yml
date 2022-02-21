@@ -37,7 +37,7 @@ env:
 
 jobs:
   pre:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
 
     steps:
     - name: Checkout
@@ -101,7 +101,7 @@ jobs:
         path: build_folder.tar
 
   download:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     
     needs: pre
     
